@@ -9,7 +9,7 @@
     "newArchEnabled": true,
     "android": {
       "package": "com.plantcareai.app",
-      "permissions": ["CAMERA", "READ_MEDIA_IMAGES"],
+      "permissions": ["android.permission.CAMERA", "android.permission.READ_MEDIA_IMAGES"],
       "edgeToEdgeEnabled": true
     },
     "plugins": [
@@ -20,6 +20,10 @@
         "microphonePermission": false
       }]
     ],
-    "experiments": {"typedRoutes": true}
+    "experiments": {"typedRoutes": true},
+    "extra": {
+      "router": {},
+      "eas": {"projectId": "2c7ffeb8-6623-41e8-a92d-6f6bbdf7e411"}
+    }
   }
 }
