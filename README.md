@@ -28,16 +28,17 @@ PlantCare AI is a React Native mobile app that lets users submit a potato-leaf p
 
 ## 📱 App Screenshots
 
-PlantCare AI has four main mobile screens:
+PlantCare AI includes a simple, mobile-first interface for checking potato leaf health, reviewing predictions, managing scan history, and checking API connectivity.
 
-- **Home:** Start a potato leaf health check and view the latest scan.
-- **Scan:** Choose or capture a potato leaf photo for analysis.
-- **Scan History:** Review locally saved predictions and confidence scores.
-- **Settings:** Check the analysis server, view supported classes, and read privacy information.
+| Home | Scan |
+|---|---|
+| ![PlantCare AI home screen](screenshots/home.png) | ![PlantCare AI scan screen](screenshots/scan.png) |
 
-> **Screenshots:** The image files still need to be added to the repository. The gallery will appear here after `screenshots/home.png`, `screenshots/scan.png`, `screenshots/history.png`, and `screenshots/settings.png` are uploaded.
+| Scan History | Settings |
+|---|---|
+| ![PlantCare AI scan history](screenshots/history.png) | ![PlantCare AI settings and connection status](screenshots/settings.png) |
 
-Predictions are estimates for educational use and may be affected by image quality.
+These screenshots are captured from the running mobile app. Predictions are estimates for educational use and may be affected by image quality.
 
 ## 🧰 Tech stack
 
