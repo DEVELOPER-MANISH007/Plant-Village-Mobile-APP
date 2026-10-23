@@ -26,29 +26,30 @@ PlantCare AI is a React Native mobile app that lets users submit a potato-leaf p
 - **Mobile-first interface:** Home, Scan, History, and Settings tabs built with Expo and React Native.
 - **Request handling:** User-facing messages for network, timeout, and API-response errors.
 
-## 📱 Screenshots
+## 📱 App Screenshots
 
-Screenshots are not currently included in this repository. Add real screenshots from the running app to `screenshots/`, then replace or extend the placeholders below.
+PlantCare AI includes a simple, mobile-first interface for checking potato leaf health, reviewing predictions, managing scan history, and checking API connectivity.
 
-Suggested filenames:
+<table>
+  <tr>
+    <td align="center"><strong>Home</strong></td>
+    <td align="center"><strong>Scan</strong></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/home.png" alt="PlantCare AI home screen" width="280" /></td>
+    <td><img src="screenshots/scan.png" alt="PlantCare AI scan screen" width="280" /></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Scan History</strong></td>
+    <td align="center"><strong>Settings</strong></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/history.png" alt="PlantCare AI scan history" width="280" /></td>
+    <td><img src="screenshots/settings.png" alt="PlantCare AI settings and connection status" width="280" /></td>
+  </tr>
+</table>
 
-| Screenshot | Suggested file |
-|---|---|
-| Home screen | `screenshots/home.png` |
-| Scan / photo selection | `screenshots/scan.png` |
-| Prediction result | `screenshots/result.png` |
-| Scan history | `screenshots/history.png` |
-| Settings / API status | `screenshots/settings.png` |
-
-Once those files exist, you can display them like this:
-
-```md
-![PlantCare AI home screen](screenshots/home.png)
-![PlantCare AI prediction result](screenshots/result.png)
-![PlantCare AI scan history](screenshots/history.png)
-```
-
-Please use screenshots captured from the actual app; do not use mockups as if they were live screens.
+These screenshots are from the running mobile app. They show the Home, Scan, History, and Settings screens. Predictions are estimates for educational use and may be affected by image quality.
 
 ## 🧰 Tech stack
 
