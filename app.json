@@ -5,11 +5,16 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "scheme": "plantcareai",
+    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "android": {
       "package": "com.plantcareai.app",
       "permissions": ["android.permission.CAMERA", "android.permission.READ_MEDIA_IMAGES"],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#F6F7F1"
+      },
       "edgeToEdgeEnabled": true
     },
     "plugins": [
