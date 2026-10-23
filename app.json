@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "PlantCare AI",
+    "slug": "plantcare-ai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "plantcareai",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "android": {
+      "package": "com.plantcareai.app",
+      "permissions": ["CAMERA", "READ_MEDIA_IMAGES"],
+      "edgeToEdgeEnabled": true
+    },
+    "plugins": [
+      "expo-router",
+      ["expo-image-picker", {
+        "photosPermission": "PlantCare AI needs access to your photos so you can choose a leaf image to analyze.",
+        "cameraPermission": "PlantCare AI uses your camera to take a leaf photo for analysis.",
+        "microphonePermission": false
+      }]
+    ],
+    "experiments": {"typedRoutes": true}
+  }
+}
